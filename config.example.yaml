@@ -1,0 +1,54 @@
+# ============================================================
+# Configuracion del sistema PDF -> Markdown + traduccion
+# Copiar a config.yaml y ajustar las rutas a tu entorno.
+# ============================================================
+
+# --- Motores de OCR / conversion a Markdown (ejecutables externos) ---
+# MinerU (https://github.com/opendatalab/MinerU) y Chandra (OCR de documentos).
+# Dejar vacio para deshabilitar el motor correspondiente.
+mineru_exe: ""
+chandra_exe: ""
+python_mineru: ""
+python_chandra: ""
+
+# --- Scripts auxiliares de post-proceso del Markdown ---
+limpiador_script: ""
+unidor_script: ""
+
+# --- Carpetas de trabajo ---
+carpeta_entrada: "pdf_original"
+carpetas_md_extra: []
+
+# --- Servidor ---
+puerto: 8000
+
+# --- Traduccion ---
+# Servidor local compatible con la API de OpenAI (LM Studio, llama.cpp, vLLM...)
+lmstudio_url: "http://127.0.0.1:1234/v1"
+modelo_llm_default: ""
+chunk_traduccion: 2000
+# Modelo de traduccion neuronal local (OPUS-MT / Marian), carpeta con el modelo
+opus_model_dir: "modelos/opus-en-es"
+
+# --- Transformacion por lotes ---
+paginas_por_lote: 10
+mineru_paginas_por_lote: 100
+
+# --- Traduccion de manga in-place (motor externo manga-image-translator) ---
+manga_python: ""
+manga_repo: ""
+manga_models: ""
+manga_entrada: "entrada_manga"
+manga_salidas: "salidas_manga"
+manga_dpi: 200
+manga_fso_default: -4
+manga_modelo_default: ""
+manga_font: ""
+manga_font_ja: ""
+manga_context_size: 1
+manga_pre_dict: ""
+
+# --- Proveedor en la nube opcional para el manga (dejar vacio para usar local) ---
+manga_deepseek_base: "https://api.deepseek.com/v1"
+manga_deepseek_model: "deepseek-chat"
+manga_deepseek_key: ""

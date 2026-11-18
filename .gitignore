@@ -1,0 +1,26 @@
+# Configuracion local y credenciales
+config.yaml
+
+# Datos, salidas y traducciones (documentos del usuario)
+data/
+salidas/
+salidas_manga/
+traducciones/
+pdf_original/
+entrada_manga/
+modelos/
+
+# Modelos de traduccion descargados
+*.bin
+*.model
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+manga-env/
+mineru-env/
+chandra-env/
+docling-env/

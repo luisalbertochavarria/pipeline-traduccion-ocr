@@ -1,0 +1,15 @@
+# Aplicacion de orquestacion (interfaz web + gestor de trabajos)
+fastapi
+uvicorn
+python-multipart
+pydantic
+pyyaml
+requests
+pymupdf
+
+# Traduccion neuronal local opcional (motor OPUS-MT / Marian)
+# Descomentar si se usa el motor 'nllb'/'opus' local:
+# ctranslate2
+# sentencepiece
+# huggingface_hub
+# transformers
