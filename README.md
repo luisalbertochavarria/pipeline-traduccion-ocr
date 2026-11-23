@@ -78,6 +78,15 @@ Luego abrir `http://127.0.0.1:8000`.
 El repositorio no incluye documentos, salidas ni modelos: `config.yaml`, las carpetas de trabajo
 y los pesos de los modelos están excluidos por `.gitignore`.
 
+## Uso responsable
+
+La herramienta traduce documentos e imágenes. Se debe utilizar únicamente con material sobre el
+cual se tenga derecho a hacerlo: obras propias, de dominio público, con licencia que lo permita, o
+con autorización del titular. Traducir y redistribuir obras protegidas por derechos de autor sin
+autorización puede constituir una infracción, y esa responsabilidad es de quien usa el software.
+
+El código se entrega tal cual, sin garantía, según los términos de la licencia MIT.
+
 ## Licencia
 
 MIT. Ver `LICENSE`.
