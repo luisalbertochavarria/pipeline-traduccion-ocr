@@ -24,3 +24,8 @@ manga-env/
 mineru-env/
 chandra-env/
 docling-env/
+
+# Auxiliares de captura (no se publican)
+capturar_ui.py
+capturar_manga.py
+inspect_dom.py

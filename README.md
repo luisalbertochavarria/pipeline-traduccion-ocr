@@ -63,6 +63,23 @@ Los motores de conversión y de manga son proyectos independientes que se config
 
 Ninguno es obligatorio: el sistema arranca y muestra el estado de cada motor.
 
+## Capturas
+
+Vista de conversión de PDF a Markdown, con selección de motor y modo de procesamiento.
+
+![Transformar PDF a Markdown](capturas/01_transformar.png)
+
+Traducción de Markdown conservando fórmulas, código, tablas e imágenes.
+
+![Traducción a español](capturas/02_traduccion.png)
+
+Traducción de manga in-place, con detección de idioma y motores alternativos.
+
+![Traducción de manga](capturas/03_manga.png)
+
+Las capturas corresponden a la interfaz real del sistema. Los motores externos aparecen sin
+configurar porque no se incluyen en el repositorio.
+
 ## Instalación y uso
 
 ```bash
